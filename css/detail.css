@@ -1,0 +1,199 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f301ab0 (:bookmark: Esta es la seccion de estilos del archivo checkout.css)
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSans-Regular";
+    box-sizing: border-box;
+<<<<<<< HEAD
+}
+=======
+@font-face {
+    font-family: "Semi";
+    src: url(/storage/font/encode-sans/EncodeSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Regular";
+    src: url(/storage/font/encode-sans/EncodeSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Bold";
+    src: url(/storage/font/encode-sans/EncodeSans-Bold.ttf);
+}
+.gridcontainer{
+    display: grid;
+    grid-template-rows: 55vh 25vh;
+}
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#señora{
+    height: 100%;
+}
+#back{
+    border-radius: 50%;
+    width: 15vw;
+    position: absolute;
+    top: 0;
+    margin-top: 3vw;
+    left: 0;
+    margin-left: 10vw;
+}
+#back:hover{
+    filter: invert();
+}
+#corazon{
+    filter: invert();
+    width: 10vw;
+    position: absolute;
+    top: 0;
+    margin-top: 5vw;
+    right: 0;
+    margin-right: 12vw;
+}
+#numeros{
+    width: 6vw;
+    margin-right: 1vw;
+}
+#title{
+    font-size: 5.8vw;
+    font-family: "Semi",sans-serif;
+    margin: 0;
+    margin-left: 8vw;
+}
+#star{
+    margin-left: 8vw;
+    margin-right: 3vw;
+    width: 26vw;
+}
+.content{
+    height: 7vw;
+    align-items: center;
+    display: flex;
+}
+#numero{
+    font-family: "Regular", sans-serif;
+    color: #878787;
+}
+#review{
+    font-family: "Regular", sans-serif;
+    color: #347EFB;
+}
+#txt{
+    margin: 0;
+    font-size: 3.3vw;
+    margin-left: 8vw;
+    font-family: "Regular", sans-serif;
+    color: #878787;
+}
+#more{
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+}
+#numero1{
+    margin: 1vw;
+    font-size: 4vw;
+    font-family: "Bold", sans-serif;
+    color: #1B2028;
+}
+.cantidad{
+    display: flex;
+}
+.cantproducto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15vw;
+}
+#mas{
+    margin-left: 1.5vw;
+}
+#menos{
+    margin-right: 1.5vw;
+}
+#size{
+    margin: 0;
+    margin-left: 4vw;
+    font-family: "Bold", sans-serif;
+    font-size: 4vw;
+    color: #1B2028;
+}
+.detalles{
+    display: flex;
+    margin-left: 5vw;
+    padding-bottom: 12vh;
+}
+.contsizes{
+    margin-top: 3vw;
+    margin-left: 3vw;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+#colores{
+    margin: 0;
+    margin-left: 5vw;
+    font-family: "Bold", sans-serif;
+    font-size: 4vw;
+    color: #1B2028;
+}
+.colores{
+    margin-top: 3vw;
+    margin-left: 5vw;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.color{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    align-items: center;
+}
+#servicio{
+    width: 5vw;
+}
+.colors{
+    margin-left: 15vw;
+}
+.Barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 3vw;
+    margin-left: 8.5vw;
+    margin-top: 0;
+    width: calc(100% - (18vw));
+    height: 10vh;
+    z-index: +1;
+    bottom: 0;
+    transition: 0.2s;
+    background-color: #292526;
+    border-radius: 12vw;
+}
+.Barra:hover{
+    filter: invert();
+}
+#texto{
+    font-family: "Bold", sans-serif;
+    margin-left: 2vw;
+    font-size: 4.6vw;
+    color: #ffffff;
+}
+#descprecio{
+    font-family: "Bold", sans-serif;
+    font-size: 3vw;
+    text-decoration: line-through;
+}
+
+>>>>>>> 58935ff (:bookmark: Esta es la seccion de los commits de la seccion de estilos de detail)
+=======
+}
+>>>>>>> f301ab0 (:bookmark: Esta es la seccion de estilos del archivo checkout.css)
