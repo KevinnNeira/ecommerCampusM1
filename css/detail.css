@@ -154,9 +154,9 @@
     border-radius: 12vw;
 }
 #texto{
+    font-family: "Bold", sans-serif;
     margin-left: 2vw;
     font-size: 4.6vw;
-    font-family: "ESmixed", sans-serif;
     color: #ffffff;
 }
 
