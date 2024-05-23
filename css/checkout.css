@@ -30,12 +30,22 @@
     left: 0;
     width: 10vw;
 }
+#back:hover{
+    background-color: white;
+    border-radius: 50%;
+    filter: invert();
+}
 #title{
     font-family: "Semi", sans-serif;
     color: #1B2028;
 }
 #bars{
     width: 10vw;
+}
+#bars:hover{
+    background-color: white;
+    border-radius: 50%;
+    filter: invert();
 }
 .productos{
     display: flex;
@@ -200,6 +210,9 @@
     transition: 0.2s;
     background-color: #292526;
     border-radius: 12vw;
+}
+.pay:hover{
+    filter: invert();
 }
 #pago{
     margin-left: 2vw;
