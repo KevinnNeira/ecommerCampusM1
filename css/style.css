@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58935ff (:bookmark: Esta es la seccion de los commits de la seccion de estilos de detail)
 @import url(variables.css);
 *{
     padding: 0;
     margin: 0;
     font-family: "EncodeSans-Regular";
     box-sizing: border-box;
+<<<<<<< HEAD
 }
 =======
 @font-face {
@@ -261,3 +265,6 @@
     background-color: #FFFFFF40;
 }
 >>>>>>> ec6c0cc (:bookmark: Esta es la seccion de estilos en el archivo style.css)
+=======
+}
+>>>>>>> 58935ff (:bookmark: Esta es la seccion de los commits de la seccion de estilos de detail)
