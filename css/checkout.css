@@ -17,7 +17,7 @@
 
 .gridcontainer{
     display: grid;
-    grid-template-rows: 10vh 45vh 35vh 12vh;
+    grid-template-rows: 10vh 45vh 35vh 10vh;
     margin-top: 0;
     margin: 3vw;
 }
@@ -222,4 +222,28 @@
 }
 #visa{
     margin-left: 6vw;
+}
+.bara{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 1vw;
+    width: calc(100% - (4vw));
+    height: 10vh;
+    z-index: +1;
+    background-color: #292526;
+    border-radius: 12vw;
+}
+#pago{
+    font-family: "Bold", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    width: 46px;
+    height: 46px;
+}
+.bara:hover{
+    filter: invert();
 }
