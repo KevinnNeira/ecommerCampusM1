@@ -10,3 +10,109 @@
     font-family: "Bold";
     src: url(/storage/font/encode-sans/EncodeSans-Bold.ttf);
 }
+
+.gridcontainer{
+    display: grid;
+    grid-template-rows: 10vh 45vh 35vh 10vh;
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+#back{
+    left: 0;
+    width: 10vw;
+}
+#title{
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+}
+#bars{
+    width: 10vw;
+}
+.productos{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    border: 1px solid red;
+}
+.contenido{
+    border: 1px solid black;
+    height: 100%;
+}
+.imagen{
+    display: flex;
+    align-items: center;
+}
+#model{
+    width: 100%;
+    border-radius: 3vw;
+}
+#title{
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+    margin: 0;
+}
+#description{
+    font-family: "Regular", sans-serif;
+    color: #A4AAAD;
+    font-size: 3vw;
+    margin: 0vw;
+}
+#price{
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+    font-size: 3.5vw;
+    margin: 0;
+    margin-top: 4vw;
+}
+.menu{
+    position: relative;
+}
+.cantidad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1B2028;
+    height: 4vw;
+    position: absolute;
+    margin: 1vw;
+    right: 0;
+    bottom: 0;
+    width: 19vw;
+    padding: 1vw;
+    border-radius: 2vw;
+}
+#menos{
+    margin: 0;
+    width: 5vw;
+}
+#number{
+    color: white;
+    font-size: 4vw;
+}
+#mas{
+    margin: 0;
+    width: 5vw;
+}
+#points{
+    position: absolute;
+    margin: 1vw;
+    right: 0;
+}
+#barr{
+    margin: 3vw;
+    width: calc(100% - (6vw));
+}
+.pago{
+    border: 1px solid yellow;
+}
+.barra{
+    border: 1px solid green;
+}
