@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f301ab0 (:bookmark: Esta es la seccion de estilos del archivo checkout.css)
 @import url(variables.css);
 *{
     padding: 0;
     margin: 0;
     font-family: "EncodeSans-Regular";
     box-sizing: border-box;
+<<<<<<< HEAD
 }
 =======
 @font-face {
@@ -190,3 +194,6 @@
 }
 
 >>>>>>> 58935ff (:bookmark: Esta es la seccion de los commits de la seccion de estilos de detail)
+=======
+}
+>>>>>>> f301ab0 (:bookmark: Esta es la seccion de estilos del archivo checkout.css)

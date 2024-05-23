@@ -1,7 +1,259 @@
+<<<<<<< HEAD
 @import url(variables.css);
 *{
     padding: 0;
     margin: 0;
     font-family: "EncodeSans-Regular";
     box-sizing: border-box;
+=======
+@font-face {
+    font-family: "Semi";
+    src: url(/storage/font/encode-sans/EncodeSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Regular";
+    src: url(/storage/font/encode-sans/EncodeSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Bold";
+    src: url(/storage/font/encode-sans/EncodeSans-Bold.ttf);
+}
+@font-face {
+    font-family: "Mixed";
+    src: url(/storage/font/encode-sans/EncodeSans-Medium.ttf);
+}   
+
+.gridcontainer{
+    display: grid;
+    grid-template-rows: 10vh 45vh 35vh 5vh;
+    margin-top: 0;
+    margin: 3vw;
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#back{
+    left: 0;
+    width: 10vw;
+}
+#back:hover{
+    background-color: white;
+    border-radius: 50%;
+    filter: invert();
+}
+#title{
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+}
+#bars{
+    width: 10vw;
+}
+#bars:hover{
+    background-color: white;
+    border-radius: 50%;
+    filter: invert();
+}
+.productos{
+    display: flex;
+    flex-direction: column;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+}
+.contenido{
+    height: 100%;
+}
+.imagen{
+    display: flex;
+    margin-right: 2vw;
+    align-items: center;
+}
+#model{
+    width: 100%;
+    height: 13vw;
+    border-radius: 3vw;
+}
+#title{
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+    margin: 0;
+}
+#description{
+    font-family: "Regular", sans-serif;
+    color: #A4AAAD;
+    font-size: 3vw;
+    margin: 0vw;
+}
+#price{
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+    font-size: 3.5vw;
+    margin: 0;
+    margin-top: 4vw;
+}
+.menu{
+    position: relative;
+}
+.cantidad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1B2028;
+    height: 4vw;
+    position: absolute;
+    margin: 1vw;
+    right: 0;
+    bottom: 0;
+    width: 19vw;
+    padding: 1vw;
+    border-radius: 2vw;
+}
+#menos{
+    margin: 0;
+    width: 5vw;
+}
+#number{
+    color: white;
+    font-size: 4vw;
+}
+#mas{
+    margin: 0;
+    width: 5vw;
+}
+#points{
+    position: absolute;
+    margin: 1vw;
+    right: 0;
+}
+#barr{
+    margin: 3vw;
+    width: calc(100% - (6vw));
+}
+#barra{
+    margin: 0.5vw;
+    width: calc(100% - (2vw));
+}
+#title2{
+    font-family: "Semi", sans-serif;
+    font-size: 4vw;
+}
+#serial{
+    margin-left: 5vw;
+    color: black;
+    font-family: "Regular", sans-serif;
+}
+.card{
+    display: flex;
+    border-radius: 2vw;
+    background-color: #F6F6F6;
+    flex-direction: row;
+    margin-bottom: 4vw;
+}
+#down{
+    width: 6vw;
+    margin-left:22vw;
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+}
+#item1{
+    font-size: 3.7vw;
+    font-family: "Regular", sans-serif;
+    color: #1B2028;
+    margin-right: 50vw;
+}
+#num1{
+    font-size: 3.7vw;
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+}
+.cont2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+#item2{
+    font-size: 3.7vw;
+    font-family: "Regular", sans-serif;
+    color: #1B2028;
+    margin: 0;
+    margin-right: 54vw;
+}
+#num2{
+    font-size: 3.7vw;
+    margin: 0;
+    margin-left: 12vw;
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+}
+.cont3{
+    display: flex;
+    flex-direction: row;
+}
+#item3{
+    font-size: 3.7vw;
+    margin: 0;
+    margin-top: 4vw;
+    font-family: "Regular", sans-serif;
+    color: #1B2028;
+    margin-right: 59vw;
+}
+#num3{
+    font-size: 3.7vw;
+    margin: 0;
+    margin-top: 4vw;
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+}
+.pay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 3vw;
+    margin-left: 3vw;
+    margin-top: 0;
+    width: calc(100% - (10vw));
+    height: 10vh;
+    z-index: +1;
+    bottom: 0;
+    transition: 0.2s;
+    background-color: #292526;
+    border-radius: 12vw;
+}
+.pay:hover{
+    filter: invert();
+}
+#pago{
+    margin-left: 2vw;
+    font-size: 4.6vw;
+    font-family: "ESmixed", sans-serif;
+    color: #ffffff;
+}
+#visa{
+    margin-left: 6vw;
+}
+.bara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: calc(100% - (4vw));
+    height: 10vh;
+    z-index: +1;
+    background-color: #292526;
+    border-radius: 12vw;
+}
+#pago{
+    font-family: "Bold", sans-serif;
+    padding: 1vw;
+}
+.bara:hover{
+    filter: invert();
+>>>>>>> f301ab0 (:bookmark: Esta es la seccion de estilos del archivo checkout.css)
 }
