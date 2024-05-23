@@ -2,9 +2,13 @@
     font-family: "Semi";
     src: url(/storage/font/encode-sans/EncodeSans-SemiBold.ttf);
 }
+@font-face {
+    font-family: "Regular";
+    src: url(/storage/font/encode-sans/EncodeSans-Regular.ttf);
+}
 .gridcontainer{
     display: grid;
-    grid-template-rows: 55vh 15vh 15vh 15vh;
+    grid-template-rows: 55vh 45vh;
     border: 1px solid black;
 }
 .foto{
@@ -31,16 +35,44 @@
     margin-top: 5vw;
     right: 0;
     margin-right: 15vw;
-
 }
 .descripcion{
-    display: flex;
     border: 1px solid red;
 }
-#
-.detalles{
-    border: 1px solid blue;
+#title{
+    border: 1px solid black;
+    font-size: 5.8vw;
+    font-family: "Semi",sans-serif;
+    margin: 0;
+    margin-left: 8vw;
 }
-.barra{
-    border: 1px solid green;
+#star{
+    margin-left: 8vw;
+    width: 26vw;
 }
+.content{
+    height: 7vw;
+    align-items: center;
+    border: 1px solid yellow;
+    display: flex;
+}
+#numero{
+    font-family: "Regular", sans-serif;
+    color: #878787;
+}
+#review{
+    font-family: "Regular", sans-serif;
+    color: #347EFB;
+}
+#txt{
+    margin: 0;
+    font-size: 3.3vw;
+    margin-left: 8vw;
+    font-family: "Regular", sans-serif;
+    color: #878787;
+}
+#more{
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+}
+
