@@ -55,6 +55,7 @@
     align-items: center;
     justify-content: center;
     border: 1px solid yellow;
+    margin-right: 10px;
     display: flex;
 }
 .secundario input{
@@ -64,10 +65,12 @@
     position: absolute;
 }
 .secundario{
+    display: flex;
     align-items: center;
-    justify-content: center;
     width: 100%;
-    border: 1px solid black;
+    border: none;
+    justify-content: space-between;
+    margin-left: 20px;
 }
 .item2{
     display: grid;
@@ -81,12 +84,20 @@
     align-items: center;
 }
 .barra{
+    margin: 4px;
+    height: 11vw;
+    background-color: red;
     border-radius: 5vw;
     border: none;
-    font-size: 6vw;
+    font-size: 5vw;
+    width: 80%;
+    outline: none;
+    
 }
 .lupa{
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
+    width: 6vw;
+    margin: 10px;
+}
+#filtros{
+    width: 13vw;
 }
