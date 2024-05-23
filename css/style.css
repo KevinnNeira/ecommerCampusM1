@@ -63,3 +63,30 @@
 .secundario .lupa{
     position: absolute;
 }
+.secundario{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid black;
+}
+.item2{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.division{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra{
+    border-radius: 5vw;
+    border: none;
+    font-size: 6vw;
+}
+.lupa{
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
