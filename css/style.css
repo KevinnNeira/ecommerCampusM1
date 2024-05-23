@@ -134,8 +134,7 @@
 .icono:hover{
     transition-duration: 0.5s;
     border-radius: 5vw;
-    width: 125px;
-    height: 100px;
+    width: 130px;
     overflow: hidden;
 }
 .iconoImg{
@@ -150,6 +149,7 @@
     overflow: hidden;
     overflow-y: auto;
     display: flex;
+    margin-top: 2vw;
     gap: 4vw;
     flex-direction: row;
 }
