@@ -13,13 +13,11 @@
 .gridcontainer{
     display: grid;
     grid-template-rows: 55vh 25vh;
-    border: 1px solid black;
 }
 .foto{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid yellow;
 }
 #señora{
     height: 100%;
@@ -40,9 +38,6 @@
     right: 0;
     margin-right: 15vw;
 }
-.descripcion{
-    border: 1px solid red;
-}
 #title{
     font-size: 5.8vw;
     font-family: "Semi",sans-serif;
@@ -57,7 +52,6 @@
 .content{
     height: 7vw;
     align-items: center;
-    border: 1px solid yellow;
     display: flex;
 }
 #numero{
