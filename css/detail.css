@@ -1,7 +1,46 @@
-@import url(variables.css);
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "EncodeSans-Regular";
-    box-sizing: border-box;
+@font-face {
+    font-family: "Semi";
+    src: url(/storage/font/encode-sans/EncodeSans-SemiBold.ttf);
+}
+.gridcontainer{
+    display: grid;
+    grid-template-rows: 55vh 15vh 15vh 15vh;
+    border: 1px solid black;
+}
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+}
+#señora{
+    height: 100%;
+}
+#back{
+    width: 18vw;
+    position: absolute;
+    top: 0;
+    margin-top: 3vw;
+    left: 0;
+    margin-left: 12vw;
+}
+#corazon{
+    width: 10vw;
+    position: absolute;
+    top: 0;
+    margin-top: 5vw;
+    right: 0;
+    margin-right: 15vw;
+
+}
+.descripcion{
+    display: flex;
+    border: 1px solid red;
+}
+#
+.detalles{
+    border: 1px solid blue;
+}
+.barra{
+    border: 1px solid green;
 }
