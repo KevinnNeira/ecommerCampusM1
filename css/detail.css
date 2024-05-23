@@ -23,12 +23,16 @@
     height: 100%;
 }
 #back{
+    border-radius: 50%;
     width: 18vw;
     position: absolute;
     top: 0;
     margin-top: 3vw;
     left: 0;
     margin-left: 12vw;
+}
+#back:hover{
+    filter: invert();
 }
 #corazon{
     width: 10vw;
@@ -153,13 +157,15 @@
     background-color: #292526;
     border-radius: 12vw;
 }
+.Barra:hover{
+    filter: invert();
+}
 #texto{
     font-family: "Bold", sans-serif;
     margin-left: 2vw;
     font-size: 4.6vw;
     color: #ffffff;
 }
-
 #descprecio{
     font-family: "Bold", sans-serif;
     font-size: 3vw;
