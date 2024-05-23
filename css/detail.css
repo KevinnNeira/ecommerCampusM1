@@ -51,6 +51,7 @@
 }
 #star{
     margin-left: 8vw;
+    margin-right: 3vw;
     width: 26vw;
 }
 .content{
@@ -101,10 +102,44 @@
 }
 #size{
     margin: 0;
-    margin-left: 8vw;
+    margin-left: 4vw;
     font-family: "Bold", sans-serif;
     font-size: 4vw;
     color: #1B2028;
+}
+.detalles{
+    display: flex;
+    margin-left: 5vw;
+}
+.contsizes{
+    margin-top: 3vw;
+    margin-left: 3vw;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+#colores{
+    margin: 0;
+    margin-left: 11vw;
+    font-family: "Bold", sans-serif;
+    font-size: 4vw;
+    color: #1B2028;
+}
+.colores{
+    margin-top: 3vw;
+    margin-left: 10vw;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.color{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    align-items: center;
+}
+.colors{
+    margin-left: 15vw;
 }
 
 
