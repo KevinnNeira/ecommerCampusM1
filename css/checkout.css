@@ -1,7 +1,12 @@
-@import url(variables.css);
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "EncodeSans-Regular";
-    box-sizing: border-box;
+@font-face {
+    font-family: "Semi";
+    src: url(/storage/font/encode-sans/EncodeSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Regular";
+    src: url(/storage/font/encode-sans/EncodeSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Bold";
+    src: url(/storage/font/encode-sans/EncodeSans-Bold.ttf);
 }
