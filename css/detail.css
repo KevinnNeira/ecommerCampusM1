@@ -110,6 +110,7 @@
 .detalles{
     display: flex;
     margin-left: 5vw;
+    padding-bottom: 12vh;
 }
 .contsizes{
     margin-top: 3vw;
@@ -141,5 +142,33 @@
 .colors{
     margin-left: 15vw;
 }
+.Barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 3vw;
+    margin-left: 8.5vw;
+    margin-top: 0;
+    width: calc(100% - (18vw));
+    height: 10vh;
+    z-index: +1;
+    bottom: 0;
+    transition: 0.2s;
+    background-color: #292526;
+    border-radius: 12vw;
+}
+#texto{
+    margin-left: 2vw;
+    font-size: 4.6vw;
+    font-family: "ESmixed", sans-serif;
+    color: #ffffff;
+}
 
+#descprecio{
+    font-family: "ESregular", sans-serif;
+    font-size: 3vw;
+    text-decoration: line-through;
+}
 
