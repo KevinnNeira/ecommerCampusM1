@@ -17,7 +17,7 @@
 
 .gridcontainer{
     display: grid;
-    grid-template-rows: 10vh 45vh 35vh 10vh;
+    grid-template-rows: 10vh 45vh 35vh 12vh;
     margin-top: 0;
     margin: 3vw;
 }
@@ -50,6 +50,7 @@
 }
 .imagen{
     display: flex;
+    margin-right: 2vw;
     align-items: center;
 }
 #model{
@@ -112,6 +113,10 @@
     margin: 3vw;
     width: calc(100% - (6vw));
 }
+#barra{
+    margin: 0.5vw;
+    width: calc(100% - (2vw));
+}
 #title2{
     font-family: "Semi", sans-serif;
     font-size: 4vw;
@@ -122,8 +127,9 @@
     font-family: "Regular", sans-serif;
 }
 .card{
-    margin-left: 6vw;
     display: flex;
+    border-radius: 2vw;
+    background-color: #F6F6F6;
     flex-direction: row;
 }
 #down{
@@ -165,14 +171,16 @@
 }
 #item3{
     margin: 0;
-    margin-top: 9vw;
+    margin-top: 4vw;
     font-family: "Regular", sans-serif;
     color: #1B2028;
     margin-right: 59vw;
 }
 #num3{
+    display: flex;
+    justify-content: center;
     margin: 0;
-    margin-top: 9vw;
+    margin-top: 4vw;
     font-family: "Semi", sans-serif;
     color: #1B2028;
 }
@@ -198,4 +206,7 @@
     font-size: 4.6vw;
     font-family: "ESmixed", sans-serif;
     color: #ffffff;
+}
+#visa{
+    margin-left: 6vw;
 }
