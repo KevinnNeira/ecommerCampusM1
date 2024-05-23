@@ -29,18 +29,23 @@
     top: 0;
     margin-top: 3vw;
     left: 0;
-    margin-left: 12vw;
+    margin-left: 10vw;
 }
 #back:hover{
     filter: invert();
 }
 #corazon{
+    filter: invert();
     width: 10vw;
     position: absolute;
     top: 0;
     margin-top: 5vw;
     right: 0;
-    margin-right: 15vw;
+    margin-right: 12vw;
+}
+#numeros{
+    width: 6vw;
+    margin-right: 1vw;
 }
 #title{
     font-size: 5.8vw;
@@ -119,14 +124,14 @@
 }
 #colores{
     margin: 0;
-    margin-left: 11vw;
+    margin-left: 5vw;
     font-family: "Bold", sans-serif;
     font-size: 4vw;
     color: #1B2028;
 }
 .colores{
     margin-top: 3vw;
-    margin-left: 10vw;
+    margin-left: 5vw;
     flex-direction: row;
     display: flex;
     align-items: center;
@@ -136,6 +141,9 @@
     flex-direction: row;
     margin-left: 2vw;
     align-items: center;
+}
+#servicio{
+    width: 5vw;
 }
 .colors{
     margin-left: 15vw;
