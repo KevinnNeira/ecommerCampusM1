@@ -120,15 +120,26 @@
 }
 .icono{
     padding-left: 3vw;
-    padding-right: 3vw;
-    padding-top: 1.7vw;
-    padding-bottom: 1.7vw;
+    padding-right: 5vw;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 4vh;
+    width: 10vw;
+    overflow: hidden;
     border: 1px solid #878787;
     border-radius: 3vw;
+}
+.icono:hover{
+    transition-duration: 0.5s;
+    border-radius: 5vw;
+    width: 125px;
+    height: 100px;
+    overflow: hidden;
+}
+.iconoImg{
+    width: 40%;
 }
 .txt{
     margin-left: 5px;
