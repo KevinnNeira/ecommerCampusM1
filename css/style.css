@@ -18,16 +18,11 @@
     margin: 4vw;
     display: grid;
     grid-template-rows: 10vh 10vh 10vh 70vh;
-    border: 1px solid rgb(0, 0, 0);
-}
-.item{
-    border: 1px solid black;
 }
 .item1{
     justify-content: space-between;
     display: flex;
     grid-template-columns: 80% 20%;
-    border: 1px solid black;
 }
 .perfil{
     width: 8vh;
@@ -82,7 +77,6 @@
 }
 
 .division{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,12 +100,10 @@
     width: 13vw;
 }
 .item3{
-    border: 1px solid black;
     display: flex;
     overflow-x: auto;
 }
 .terciario{
-    border: 1px solid black;
     display: flex;
     align-items: center;
     gap: 7px;
