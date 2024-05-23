@@ -142,7 +142,7 @@
     text-wrap: nowrap;
 }
 .item4{
-    height: 70vh;
+    height: 55vh;
     overflow: hidden;
     overflow-y: auto;
     display: flex;
@@ -212,7 +212,8 @@
     position: absolute;
     margin: 3vw;
     margin-top: 0;
-    width: calc(100% - (6vw));
+    margin-left: 4vw;
+    width: calc(100% - (12vw));
     height: 10vh;
     z-index: +1;
     bottom: 0;
