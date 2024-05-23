@@ -10,10 +10,16 @@
     font-family: "Bold";
     src: url(/storage/font/encode-sans/EncodeSans-Bold.ttf);
 }
+@font-face {
+    font-family: "Mixed";
+    src: url(/storage/font/encode-sans/EncodeSans-Medium.ttf);
+}   
 
 .gridcontainer{
     display: grid;
     grid-template-rows: 10vh 45vh 35vh 10vh;
+    margin-top: 0;
+    margin: 3vw;
 }
 .navegacion{
     display: flex;
@@ -112,6 +118,68 @@
 }
 .pago{
     border: 1px solid yellow;
+}
+#title2{
+    font-family: "Semi", sans-serif;
+    font-size: 4vw;
+}
+#serial{
+    margin-left: 5vw;
+    color: black;
+    font-family: "Regular", sans-serif;
+}
+.card{
+    margin-left: 6vw;
+    display: flex;
+    flex-direction: row;
+}
+#down{
+    width: 6vw;
+    margin-left:22vw;
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+}
+#item1{
+    font-family: "Regular", sans-serif;
+    color: #1B2028;
+    margin-right: 50vw;
+}
+#num1{
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+}
+.cont2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+#item2{
+    font-family: "Regular", sans-serif;
+    color: #1B2028;
+    margin: 0;
+    margin-right: 54vw;
+}
+#num2{
+    margin: 0;
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
+}
+.cont3{
+    display: flex;
+    flex-direction: row;
+}
+#item3{
+    margin-top: 9vw;
+    font-family: "Regular", sans-serif;
+    color: #1B2028;
+    margin-right: 59vw;
+}
+#num3{
+    margin-top: 9vw;
+    font-family: "Semi", sans-serif;
+    color: #1B2028;
 }
 .barra{
     border: 1px solid green;
