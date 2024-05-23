@@ -6,6 +6,10 @@
     font-family: "Bold";
     src: url(../storage/font/encode-sans/EncodeSans-Bold.ttf);
 }
+.gridcontainer{
+    border: 1px solid black;
+    margin: 2vw;
+}
 #welcome{
     font-family: "Regular", sans-serif;
 }
@@ -13,5 +17,7 @@
     font-family: "Bold", sans-serif;
 }
 #img{
+    transform: translate();
+    border-radius: 70%;
     
 }
