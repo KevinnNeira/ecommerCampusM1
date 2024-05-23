@@ -17,7 +17,7 @@
 
 .gridcontainer{
     display: grid;
-    grid-template-rows: 10vh 45vh 35vh 10vh;
+    grid-template-rows: 10vh 45vh 35vh 5vh;
     margin-top: 0;
     margin: 3vw;
 }
@@ -65,6 +65,7 @@
 }
 #model{
     width: 100%;
+    height: 13vw;
     border-radius: 3vw;
 }
 #title{
@@ -141,6 +142,7 @@
     border-radius: 2vw;
     background-color: #F6F6F6;
     flex-direction: row;
+    margin-bottom: 4vw;
 }
 #down{
     width: 6vw;
@@ -151,11 +153,13 @@
     flex-direction: row;
 }
 #item1{
+    font-size: 3.7vw;
     font-family: "Regular", sans-serif;
     color: #1B2028;
     margin-right: 50vw;
 }
 #num1{
+    font-size: 3.7vw;
     font-family: "Semi", sans-serif;
     color: #1B2028;
 }
@@ -165,13 +169,16 @@
     margin-top: 0;
 }
 #item2{
+    font-size: 3.7vw;
     font-family: "Regular", sans-serif;
     color: #1B2028;
     margin: 0;
     margin-right: 54vw;
 }
 #num2{
+    font-size: 3.7vw;
     margin: 0;
+    margin-left: 12vw;
     font-family: "Semi", sans-serif;
     color: #1B2028;
 }
@@ -180,6 +187,7 @@
     flex-direction: row;
 }
 #item3{
+    font-size: 3.7vw;
     margin: 0;
     margin-top: 4vw;
     font-family: "Regular", sans-serif;
@@ -187,8 +195,7 @@
     margin-right: 59vw;
 }
 #num3{
-    display: flex;
-    justify-content: center;
+    font-size: 3.7vw;
     margin: 0;
     margin-top: 4vw;
     font-family: "Semi", sans-serif;
@@ -224,11 +231,10 @@
     margin-left: 6vw;
 }
 .bara{
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-top: 1vw;
     width: calc(100% - (4vw));
     height: 10vh;
     z-index: +1;
@@ -237,12 +243,7 @@
 }
 #pago{
     font-family: "Bold", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 1vw;
-    width: 46px;
-    height: 46px;
 }
 .bara:hover{
     filter: invert();
