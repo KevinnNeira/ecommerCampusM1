@@ -1,14 +1,14 @@
-<<<<<<< HEAD
+
 @import url(variables.css);
+@font-face {
+    font-family: "Semi";
+    src: url(/storage/font/encode-sans/EncodeSans-SemiBold.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     font-family: "EncodeSans-Regular";
     box-sizing: border-box;
-=======
-@font-face {
-    font-family: "Semi";
-    src: url(/storage/font/encode-sans/EncodeSans-SemiBold.ttf);
 }
 @font-face {
     font-family: "Regular";
@@ -255,5 +255,4 @@
 }
 .bara:hover{
     filter: invert();
->>>>>>> f301ab0 (:bookmark: Esta es la seccion de estilos del archivo checkout.css)
 }
