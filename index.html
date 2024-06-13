@@ -7,7 +7,7 @@
     storage/img/casa.ico" type="image/x-icon">
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/main.js" defer></script>
 </head>
 <body>
 <div class="gridcontainer">
@@ -26,7 +26,7 @@
         <div class="division">
             <div class="secundario">
                 <img class="lupa" src="storage/img/magnifyingGlass.svg">
-                <input class="barra" type="text" placeholder="Search clothes...">
+                <input id="barra" type="text" placeholder="Search clothes...">
             </div>
         </div>
         <div class="division">
@@ -41,34 +41,37 @@
             <div class="icono"><img class="iconoImg" src="storage/img/disney.svg"><p class="txt">Disney +</p></div>
             <div class="icono"><img class="iconoImg" src="storage/img/redondeado.png"><p class="txt">Spotify</p></div>
             <div class="icono"><img class="iconoImg" src="storage/img/video.png"><p class="txt">Crunchyroll</p></div>
-            <div class="icono"><img class="iconoImg" src="storage/img/Starplus.jpg"><p class="txt">Star +</p></div>
+            <div class="icono"><img class="iconoImg" src="storage/img/ab0ab7dc19582f4dca12885155cc0cd3.jpg"><p class="txt">Star +</p></div>
             <div class="icono"><img class="iconoImg" src="storage/img/youtube.png"><p class="txt">Youtube</p></div>
         </div>
     </div>
     <div class="item4">
         <div class="columna">
-            <div class="productos">
-                <div class="images">
-                    <img id="photo" src="storage/img/STK072_VRG_Illo_N_Barclay_8_netflix.jpg">
-                    <img id="corazon" src="storage/img/Group 3245.svg">
-                </div>
-                <h4 id="modern">Netflix por 30 dias</h4>
-                <p id="dres">Con garantía</p>
-                <div class="cont">
-                    <div class="conthijos1">
-                        <h4 id="price">$15.000</h4>
+            <article class="main_article">
+               <!-- <div class="productos">
+                    <div class="images">
+                        <img id="photo" src="storage/img/STK072_VRG_Illo_N_Barclay_8_netflix.jpg">
+                        <img id="corazon" src="storage/img/heart (1).svg">
                     </div>
-                    <div class="conthijos">
-                        <img id="star" src="storage/img/star.svg">
-                        <p id="calificacion">5.0</p>
+                    <h4 id="modern">Netflix por 30 dias</h4>
+                    <p id="dres">Con garantía</p>
+                    <div class="cont">
+                        <div class="conthijos1">
+                            <h4 id="price">$15.000</h4>
+                        </div>
+                        <div class="conthijos">
+                            <img id="star" src="storage/img/star.svg">
+                            <p id="calificacion">5.0</p>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </div>  -->
+
+            </article>
         <div class="productos">
             <div class="images">
                 <img id="photo" src="storage/img/STK072_VRG_Illo_N_Barclay_2_netflix.webp">
-                <img id="corazon" src="storage/img/Group 3245.svg">
-            </div>
+                <img id="corazon" src="storage/img/heart (1).svg">
+            </div>Group 3245.svg
             <h4 id="modern">Netflix por 15 dias</h4>
             <p id="dres">Con garantía</p>
             <div class="cont">
@@ -86,7 +89,7 @@
             <div class="productos">
                 <div class="images">
                     <img id="photo" onclick="window.location.href = 'views/detail.html'" src="storage/img/netflix2222.jpeg">
-                    <img id="corazoninvert" src="storage/img/Group 3246.svg">
+                    <img id="corazoninvert" src="storage/img/heart.svg">
                 </div>
                 <h4 id="modern">Netflix por 15 dias</h4>
                 <p id="dres">Sin garantía</p>
@@ -103,7 +106,7 @@
         <div class="productos">
             <div class="images">
                 <img id="photo" src="storage/img/images.jpeg">
-                <img id="corazon" src="storage/img/Group 3245.svg">
+                <img id="corazon" src="storage/img/heart (1).svg">
             </div>
             <h4 id="modern">Netflix por 45 dias</h4>
             <p id="dres">Con garantía</p>
