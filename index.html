@@ -1,149 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta id="myMeta" charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="
-    storage/img/casa.ico" type="image/x-icon">
     <title>Home</title>
-    <link rel="stylesheet" href="css/style.css">
     <script type="module" src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="gridcontainer">
-    <div class="item1">
-        <div class="principal">
-            <p id="welcome">Hola, Kevin Acosta 👋</p>
-            <h1 id="name">Bienvenido a<br>CinetechStreaming</h1>  
+    <header class="welcome">
+        <div class="welcome__information">
+            <p>Bienvenido a mi eccommerce 👋</p>
+            <span>Kevin Neira</span>
         </div>
-        <div class="contperfil">
-            <div class="perfil">
-                <img id="img" src="storage/img/attachment_123848075.png">
-            </div>
+        <div class="profile__login">
+            <img src="storage/img/img5.png">
         </div>
-    </div>
-    <div class="item2">
-        <div class="division">
-            <div class="secundario">
-                <img class="lupa" src="storage/img/magnifyingGlass.svg">
-                <input id="barra" type="text" placeholder="Search clothes...">
-            </div>
+    </header>
+    <nav class="search">
+        <div class="contain__search">
+            <input id="input__search" type="text" placeholder="Search clothes. . .">
+            <span class="search__icon">
+                <img src="storage/img/magnifyingGlass.svg">
+            </span>
         </div>
-        <div class="division">
-            <img id="filtros" src="storage/img/of-filter-icon-filter-logo-isolated-on-white-background-free-vector.jpg">
+        <div class="img__filter">
+            <a href="#">
+                <img src="storage/img/filter.svg">
+            </a>
         </div>
-    </div>
-    <div class="item3">
-        <div class="terciario">
-            <div class="icono"><img class="iconoImg" src="storage/img/netflix.png"><p class="txt">Netflix</p></div>
-            <div class="icono"><img class="iconoImg" src="storage/img/social.png"><p class="txt">Amazon prime</p></div>
-            <div class="icono"><img class="iconoImg" src="storage/img/Hbo.webp"><p class="txt">Hbo max</p></div>
-            <div class="icono"><img class="iconoImg" src="storage/img/disney.svg"><p class="txt">Disney +</p></div>
-            <div class="icono"><img class="iconoImg" src="storage/img/redondeado.png"><p class="txt">Spotify</p></div>
-            <div class="icono"><img class="iconoImg" src="storage/img/video.png"><p class="txt">Crunchyroll</p></div>
-            <div class="icono"><img class="iconoImg" src="storage/img/ab0ab7dc19582f4dca12885155cc0cd3.jpg"><p class="txt">Star +</p></div>
-            <div class="icono"><img class="iconoImg" src="storage/img/youtube.png"><p class="txt">Youtube</p></div>
-        </div>
-    </div>
-    <div class="item4">
-        <div class="columna">
-            <article class="main_article">
-               <!-- <div class="productos">
-                    <div class="images">
-                        <img id="photo" src="storage/img/STK072_VRG_Illo_N_Barclay_8_netflix.jpg">
-                        <img id="corazon" src="storage/img/heart (1).svg">
-                    </div>
-                    <h4 id="modern">Netflix por 30 dias</h4>
-                    <p id="dres">Con garantía</p>
-                    <div class="cont">
-                        <div class="conthijos1">
-                            <h4 id="price">$15.000</h4>
-                        </div>
-                        <div class="conthijos">
-                            <img id="star" src="storage/img/star.svg">
-                            <p id="calificacion">5.0</p>
-                        </div>
-                    </div>
-                </div>  -->
-
-            </article>
-        <div class="productos">
-            <div class="images">
-                <img id="photo" src="storage/img/STK072_VRG_Illo_N_Barclay_2_netflix.webp">
-                <img id="corazon" src="storage/img/heart (1).svg">
-            </div>Group 3245.svg
-            <h4 id="modern">Netflix por 15 dias</h4>
-            <p id="dres">Con garantía</p>
-            <div class="cont">
-                <div class="conthijos1">
-                    <h4 id="price">$7.000</h4>
+    </nav>
+    <main class="main">
+        <nav class="main__category">
+            <ul class="flex__category">
+                <!-- <li>
+                    <a href="#" >
+                        <img src="storage/img/mask.svg" style="filter: invert(1);">
+                        Dresss
+                    </a>
+                </li> -->
+            </ul>
+        </nav>
+        <article class="main__product">
+            <!-- <section>
+                <div class="onclick__front_page_detail">
+                    <a href="views/detail.html">
+                        <img src="storage/img/img3.png">
+                    </a>
+                    <img src="storage/img/heart.svg">
                 </div>
-                <div class="conthijos">
-                    <img id="star" src="storage/img/star.svg">
-                    <p id="calificacion">5.0</p>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="columna">
-            <div class="productos">
-                <div class="images">
-                    <img id="photo" onclick="window.location.href = 'views/detail.html'" src="storage/img/netflix2222.jpeg">
-                    <img id="corazoninvert" src="storage/img/heart.svg">
-                </div>
-                <h4 id="modern">Netflix por 15 dias</h4>
-                <p id="dres">Sin garantía</p>
-                <div class="cont">
-                    <div class="conthijos1">
-                        <h4 id="price">$5.000</h4>
-                    </div>
-                    <div class="conthijos">
-                        <img id="star" src="storage/img/star.svg">
-                        <p id="calificacion">5.0</p>
+                <h5>Modern light clothes</h5>
+                <small>Dress modern</small>
+                <div class="value__price">
+                    <span>$212.99</span>
+                    <div  class="star__score">
+                        <img src="storage/img/star.svg">
+                        <p>5.0</p>
                     </div>
                 </div>
-            </div>
-        <div class="productos">
-            <div class="images">
-                <img id="photo" src="storage/img/images.jpeg">
-                <img id="corazon" src="storage/img/heart (1).svg">
-            </div>
-            <h4 id="modern">Netflix por 45 dias</h4>
-            <p id="dres">Con garantía</p>
-            <div class="cont">
-                <div class="conthijos1">
-                    <h4 id="price">$20.000</h4>
-                </div>
-                <div class="conthijos">
-                    <img id="star" src="storage/img/star.svg">
-                    <p id="calificacion">5.0</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-<div class="navigationBar">
-    <div class="navigationitem">
-        <div class="NitemF">
-            <img class="navigationImg" src="storage/img/home.svg">
-        </div>
-    </div>
-    <div class="navigationitem">
-        <div onclick="window.location.href = 'views/checkout.html'" class="NitemF">
-            <img class="navigationImg" src="storage/img/bag.svg">
-        </div>
-    </div>
-    <div class="navigationitem">
-        <div onclick="window.location.href = 'views/detail.html'" class="NitemF">
-            <img class="navigationImg" src="storage/img/heart.svg">
-        </div>
-    </div>
-    <div class="navigationitem">
-        <div class="NitemF">
-            <img class="navigationImg" src="storage/img/profile.svg">
-        </div>
-    </div>
-</div>
+            </section> -->
+        </article>
+    </main>
+    <footer class="footer__nav">
+        <ul class="footer__bar">
+            <li>
+                <a href="index.html">
+                    <img src="storage/img/home.svg">
+                </a>
+            </li>
+            <li>
+                <a href="views/detail.html">
+                    <img src="storage/img/bag.svg">
+                </a>
+            </li>
+            <li>
+                <a href="views/checkout.html">
+                    <img src="storage/img/heart.svg">
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="storage/img/profile.svg">
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

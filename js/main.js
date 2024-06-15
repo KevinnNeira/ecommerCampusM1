@@ -5,11 +5,11 @@ import { getAllProductName, getAllCategory } from "./module/app.js";
 
 let barra = document.querySelector("#barra");
 let main_article = document.querySelector(".main_article");
-let nav__ul = document.querySelector(".nav__ul");
+let flex__category = document.querySelector(".flex__category");
 
 addEventListener("DOMContentLoaded", async e=>{
     if(!localStorage.getItem("getAllCategory")) localStorage.setItem("getAllCategory", JSON.stringify(await getAllCategory()));
-    nav__ul.innerHTML = await menuListCategoryIndex(JSON.parse(localStorage.getItem("getAllCategory")));  
+    flex__category.innerHTML = await menuListCategoryIndex(JSON.parse(localStorage.getItem("getAllCategory")));  
 })
 
 

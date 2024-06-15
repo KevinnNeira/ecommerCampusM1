@@ -4,23 +4,27 @@ export const galleryIndex = (res, category)=>{
     let plantilla = "";
     products.forEach((value,index) => {
         plantilla += /*html*/`
-        <section>
-           <div class="section__front_page">
-               <a href="views/detail.html?id=${value.asin}">
-                   <img src="${value.product_photo}">
-               </a>
-               <img src="storage/img/heart.svg">
-           </div>
-           <h5>${value.product_title}</h5>
-           <small>${category}</small>
-           <div class="section__price">
-               <span>${value.product_price}</span>
-               <div  class="price__score">
-                   <img src="storage/img/star.svg">
-                   <p>${(value.product_star_rating!=null) ? value.product_star_rating : 0}</p>
-               </div>
-           </div>
-       </section>
+        <div class="item4">
+        <div class="columna">
+               <div class="productos">
+                    <div class="images">
+                        <img id="photo" src="storage/img/STK072_VRG_Illo_N_Barclay_8_netflix.jpg">
+                        <img id="corazon" src="storage/img/heart (1).svg">
+                    </div>
+                    <h4 id="modern">Netflix por 30 dias</h4>
+                    <p id="dres">Con garantía</p>
+                    <div class="cont">
+                        <div class="conthijos1">
+                            <h4 id="price">$15.000</h4>
+                        </div>
+                        <div class="conthijos">
+                            <img id="star" src="storage/img/star.svg">
+                            <p id="calificacion">5.0</p>
+                        </div>
+                    </div>
+                </div> 
+            </article>
+        
        `;
     });
     return plantilla
