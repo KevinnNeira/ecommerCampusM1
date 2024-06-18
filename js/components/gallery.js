@@ -25,3 +25,18 @@ export const galleryIndex = (res, category)=>{
     });
     return plantilla
 }
+
+export const detailProduct = ({data: {main__image__product}} = res)=>{
+    return /*html*/`
+        <article class="main__product">
+            <div class="main__image">
+                ${main__image__product.map(value => `<div class="product__item"><img src="${value}"></div>`).join('')}
+            </div>
+            <div class="product__menu">
+                <a href="../?id='fashion'">
+                    <img src="../storage/img/back.svg">
+                </a>
+                <img src="../storage/img/heartBlack.svg">
+            </div>
+        </article>`;
+}
