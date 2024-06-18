@@ -27,13 +27,13 @@
     height: var(--layout-imagen-height-detail);
     border-radius: 20px;
 }
-.product__item{
+.product__image__item{
     flex: 1;
     min-width: 98%;
     margin: 0 10px;
     height: var(--layout-imagen-height-detail);
 }
-.product__item img{
+.product__image__item img{
     width: var(--layout-imagen-width-detail);
     height: var(--layout-imagen-height-detail);
     object-fit: contain;
