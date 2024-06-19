@@ -4,9 +4,9 @@ export const titleProduct = async({ data:data__detail } = res)=>{
             <div class="detail__main">
                 <h1>${data__detail.product_title}</h1>
                 <div class="product__cuantity">
-                    <img src="../storage/img/minus.svg">
+                    <img id="btn_minus" src="../storage/img/minus.svg">
                     <span>1</span>
-                    <img src="../storage/img/plus.svg" alt="">
+                    <img id="btn_plus" src="../storage/img/plus.svg" alt="">
                 </div>
             </div>
             <div class="star__score">
