@@ -1,27 +1,27 @@
-import { detailProduct } from "./components/gallery.js";
-import { titleProduct, productOptions } from "./components/section.js";
-import { getProduct } from "./module/detail.js";
 import { buttonCartDetails } from "./components/footer.js";
+import { galleryCategory } from "./components/gallery.js";
+import { productDetail, titleProductDetail } from "./components/section.js";
+import { getProduct } from "./module/detail.js";
 
 let main__section_gallery = document.querySelector("#main__section__gallery");
-let product__title = document.querySelector("#product__title");
-let product__description = document.querySelector(".product__description");
-let footer__bar = document.querySelector(".footer__bar")
+let main__section__title = document.querySelector("#main__section__title");
+let product__information = document.querySelector(".product__information");
+let footer__ul = document.querySelector(".footer__ul");
 
 addEventListener("DOMContentLoaded", async(e)=>{
-    
+   
     let params = new URLSearchParams(location.search);
     let id = params.get('id');
     if(!localStorage.getItem(id)) localStorage.setItem(id, JSON.stringify(await getProduct({id})));
-
+    
     let info = JSON.parse(localStorage.getItem(id));
-    main__section_gallery.innerHTML = await detailProduct(info);
-    product__title.innerHTML = await titleProduct(info);
+    main__section_gallery.innerHTML = await galleryCategory(info);
+    main__section__title.innerHTML = await titleProductDetail(info);
     let btn_minus = document.querySelector("#btn_minus");
     let btn_plus = document.querySelector("#btn_plus");
     
-    product__description.innerHTML = await productOptions(info);
-    footer__bar.innerHTML = await buttonCartDetails(info);
+    product__information.innerHTML = await productDetail(info);
+    footer__ul.innerHTML = await buttonCartDetails(info);
     // let {data} = res;
     // let {
     //     category_path,
@@ -36,8 +36,8 @@ addEventListener("DOMContentLoaded", async(e)=>{
     // } = data;
     // console.log(dataUpdate);
 
-    btn_minus.addEventListener("click",quantity);
-    btn_plus.addEventListener("click",quantity);
+    btn_minus.addEventListener("click",quantity)
+    btn_plus.addEventListener("click",quantity)
 })
 
 const quantity = async (e)=>{
@@ -53,7 +53,7 @@ const quantity = async (e)=>{
     let product_price= Number(res.product_price.replace("$", ""));
 
     
-    if(e.target.id == "btn_plus")span_quantity.innerHTML = Number(span_quantity.innerHTML) + 1;
+    if(e.target.id == "btn_plus")span_quantity.innerHTML = Number(span_quantity.innerHTML) + 1
     if(e.target.id == "btn_minus" && span_quantity.innerHTML > "1") span_quantity.innerHTML = Number(span_quantity.innerHTML) - 1;
 
     price_discount.innerHTML = `$${(product_price * Number(span_quantity.innerHTML)).toFixed(2)}`;
