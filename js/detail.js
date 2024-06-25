@@ -22,19 +22,6 @@ addEventListener("DOMContentLoaded", async(e)=>{
     
     product__information.innerHTML = await productDetail(info);
     footer__ul.innerHTML = await buttonCartDetails(info);
-    // let {data} = res;
-    // let {
-    //     category_path,
-    //     about_product,
-    //     product_details,
-    //     product_information,
-    //     product_photos,
-    //     product_variations,
-    //     rating_distribution,
-    //     review_aspects,
-    //     ...dataUpdate
-    // } = data;
-    // console.log(dataUpdate);
 
     btn_minus.addEventListener("click",quantity)
     btn_plus.addEventListener("click",quantity)
@@ -58,10 +45,4 @@ const quantity = async (e)=>{
 
     price_discount.innerHTML = `$${(product_price * Number(span_quantity.innerHTML)).toFixed(2)}`;
     if(product_original_price) price_original.innerHTML = `$${(product_original_price * Number(span_quantity.innerHTML)).toFixed(2)}`;
-    // Swal.fire({
-    //     position: "top-end",
-    //     title: `<small>Product ${id} with a quantity of ${span_quantity.innerHTML} was added to the cart</small>`,
-    //     showConfirmButton: false,
-    //     timer: 2000
-    // });
 }
