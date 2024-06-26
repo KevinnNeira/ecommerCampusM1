@@ -9,7 +9,6 @@ let main__product = document.querySelector(".main__product");
 let flex__category = document.querySelector(".flex__category");
 
 let searchProducts = async e => {
-
     let params = new URLSearchParams(location.search);
     let dataSearch = { search : e.target.value, id: params.get('id')}
     input__search.value = null;
@@ -47,7 +46,7 @@ addEventListener("DOMContentLoaded", async e=>{
     if(!localStorage.getItem("getAllCategory")) localStorage.setItem("getAllCategory", JSON.stringify(await getAllCategory()));
     flex__category.innerHTML = menuListCategoryIndex(JSON.parse(localStorage.getItem("getAllCategory")));  
     
-    history.pushState(null, "", "?id=fashion");
+    history.pushState(null, "", "?id=aps");
     input__search.value = "zapato";
     const eventoChange = new Event('change');
     input__search.dispatchEvent(eventoChange);

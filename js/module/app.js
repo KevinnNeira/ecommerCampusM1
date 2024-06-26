@@ -24,6 +24,8 @@ export const getAllCategory = async()=>{
     let data = res.json();
     return data;
 }
+
+
 export const getAllProductRandom = async({
     query="zapato", 
     page=3000, 
