@@ -1,4 +1,3 @@
-
 export const galleryIndex = (res, category)=>{
     let {products} = res.data
     let plantilla = "";

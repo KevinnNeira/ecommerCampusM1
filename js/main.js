@@ -6,7 +6,7 @@ import { getProduct } from "./module/detail.js";
 
 let input__search = document.querySelector("#input__search");
 let main__product = document.querySelector(".main__product");
-let flex__category = document.querySelector(".flex__category");
+let flex__category = document.querySelector("#flex__category");
 
 let searchProducts = async e => {
     let params = new URLSearchParams(location.search);
@@ -23,7 +23,6 @@ let searchProducts = async e => {
         res = await getAllProductName(dataSearch)
         console.log(dataSearch);
     }
-    console.log(res);
     main__product.innerHTML = galleryIndex(res, params.get('id'));
     
     let {data: {products}} = res;
